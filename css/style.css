@@ -1,0 +1,12 @@
+.dropdown-menu .dropdown-item{
+    transition: .3s;
+}
+
+
+.dropdown-menu .dropdown-item:hover{
+    background-color: red;
+    color: white;
+}
+
+
+

@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--  CSS link here -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    
+
+    <title>BTS5</title>
+  </head>
+  <body>
+    <section class="container bg-secondary">
+      
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="display-3 text-center text-light">Acordian</h1>
+          <div class="accordion accordion-flush" id="axe1">
+             <!-- item-1 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-1 ">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  What do you need to complete this task?
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-1" data-bs-parent="#axe1">
+                <div class="accordion-body ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum quasi facere sunt amet ducimus nulla dolor excepturi ex vel veniam!</div>
+              </div>
+            </div>
+  
+            <!-- item-2 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  What do you need to complete this task?
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-2" data-bs-parent="#axe1">
+                <div class="accordion-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla consequatur culpa quibusdam maxime maiores cupiditate iste temporibus repudiandae debitis! Porro..</div>
+              </div>
+            </div>
+            <!-- item-3 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-3">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  What do you need to complete this task?
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-3" data-bs-parent="#axe1">
+                <div class="accordion-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla consequatur culpa quibusdam maxime maiores cupiditate iste temporibus repudiandae debitis! Porro..</div>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+        <!-- acordian end -->
+        <!-- start -->
+        
+        <div class="col-lg-6">
+          <h1 class="display-3 text-center text-light">Flush</h1>
+          <div class="accordion accordion-flash" id="flash1 ">
+            <!-- item-1 -->
+            <div class="accordion-item bg-warning">
+              <h2 class="accordion-header" id="flash-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flash-collapseOne" aria-expanded="false" aria-controls="flash-collapseOne">
+                  What do you need to complete this task?
+                </button>
+              </h2>
+              <div id="flash-collapseOne" class="accordion-collapse collapse" aria-labelledby="flash-headingOne" data-bs-parent="#flash1">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+              </div>
+            </div>
+            <!-- item-2 -->
+            <div class="accordion-item bg-danger">
+              <h2 class="accordion-header" id="flash-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flash-collapseTwo" aria-expanded="false" aria-controls="flash-collapseTwo">
+                  What do you need to complete this task?
+                </button>
+              </h2>
+              <div id="flash-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flash-headingTwo" data-bs-parent="#flash1">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+              </div>
+            </div>
+
+            <!-- item-3 -->
+            <div class="accordion-item bg-info">
+              <h2 class="accordion-header" id="flash-headingThree ">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flash-collapseThree" aria-expanded="false" aria-controls="flash-collapseThree">
+                  What do you need to complete this task?
+                </button>
+              </h2>
+              <div id="flash-collapseThree" class="accordion-collapse collapse" aria-labelledby="flash-headingThree" data-bs-parent="#flash1">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+      </div>
+
+     
+     
+    </section>
+
+    <section class="container">
+        <!-- alter is start here  -->
+        <div class="mt-5">
+          <h1 class="text-center">Normal Alert</h1>
+          <div class="alert alert-primary" role="alert">
+            A simple primary alert—check it out!
+          </div>
+          <h1 class="text-center">Link Alert</h1>
+          <div class="alert alert-warning " role="alert ">
+            A simple secondary alert with <a href="#" class="alert-link text-info">Click here for more info</a>. Give it a click if you like.
+          </div>
+
+          <h1 class="text-center">Icon Alert</h1>
+          <div>
+            <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+              <symbol id="check-circle-fill" fill="currentColor" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+              </symbol>
+              <symbol id="info-fill" fill="currentColor" viewBox="0 0 16 16">
+                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+              </symbol>
+              <symbol id="exclamation-triangle-fill" fill="currentColor" viewBox="0 0 16 16">
+                <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+              </symbol>
+            </svg>
+            <div class="alert alert-success d-flex align-items-center" role="alert">
+              <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Success:"><use xlink:href="#check-circle-fill"/></svg>
+              <div>
+               Your Registration completed successfully
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+      <!-- badges start here -->
+    <section class="container">
+      <div>
+        
+        <h1 class="text-center mt-5 display-4">Example of <span class="badge bg-warning badge-radius-3">Badges</span></h1>
+        <h2 class="text-center mt-5 mb-5">Button</h2>
+        <div class="text text-center">
+          <button type="button" class="btn btn-success btn-lg  position-relative">
+            Inbox
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+              99+
+              <span class="visually-hidden">unread messages</span>
+            </span>
+          </button>
+        </div>
+          <h1 class="text text-center mt-4 mb-4">Pill Badge</h1>
+          <div class="pill text-center">
+            <span class="badge rounded-lg-pill bg-primary">Primary</span>
+            <span class="badge rounded-lg-pill bg-secondary">Secondary</span>
+            <span class="badge rounded-lg-pill bg-success">Success</span>
+            <span class="badge rounded-lg-pill bg-danger">Danger</span>
+            <span class="badge rounded-lg-pill bg-warning text-dark">Warning</span>
+            <span class="badge rounded-lg-pill bg-info text-dark">Info</span>
+            <span class="badge rounded-lg-pill bg-light text-dark">Light</span>
+            <span class="badge rounded-lg-pill bg-dark">Dark</span>
+          </div>
+      </div>
+    </section>
+
+
+    <section class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item active" aria-current="page">Home</li>
+        </ol>
+      </nav>
+      
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Library</li>
+        </ol>
+      </nav>
+      
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Library</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Data</li>
+        </ol>
+      </nav>
+    </section>
+
+    <section class="container">
+        <div class=" text-center">
+          <h1 class="mt-4 mb-4">Normal Button</h1>
+          <button class="btn btn-lg btn-success" type="button">Button</button>
+        </div>
+        <div class=" text-center">
+          <h1 class="mt-4 mb-4">Out-line Button</h1>
+          <button class="btn btn-lg btn-outline-warning" type="button">Button</button>
+        </div>
+        <div class=" text-center">
+          <h1 class="mt-4 mb-4">Gap Button</h1>
+          <div class="d-grid gap-2">
+            <button class="btn btn-secondary" type="button">Button</button>
+            <button class="btn btn-danger" type="button">Button</button>
+          </div>
+          <h1 class="text-center mt-4 mb-4">Button Group</h1>
+          <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+            <button type="button" class="btn btn-lg btn-danger">Left</button>
+            <button type="button" class="btn btn-mid btn-warning">Middle</button>
+            <button type="button" class="btn btn-sm btn-success">Right</button>
+          </div>
+          <h1 class="text-center mt-4 mb-4">CheckBox</h1>
+          <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+            <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+            <label class="btn btn-outline-primary" for="btncheck1">Checkbox 1</label>
+          
+            <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
+            <label class="btn btn-outline-info" for="btncheck2">Checkbox 2</label>
+          
+            <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
+            <label class="btn btn-outline-danger" for="btncheck3">Checkbox 3</label>
+          </div>
+        </div>
+
+        <h1 class="text-center ">Button toolbar</h1>
+        <div class="btn-toolbar mb-3" role="toolbar" aria-label="Toolbar with button groups">
+          <div class="btn-group me-2" role="group" aria-label="First group">
+            <button type="button" class="btn btn-outline-dark">1</button>
+            <button type="button" class="btn btn-outline-warning">2</button>
+            <button type="button" class="btn btn-outline-info">3</button>
+            <button type="button" class="btn btn-outline-danger">4</button>
+          </div>
+          <div class="input-group">
+            <div class="input-group-text" id="btnGroupAddon">@</div>
+            <input type="text" class="form-control" placeholder="Enter Your Email" aria-label="Input group example" aria-describedby="btnGroupAddon">
+          </div>
+        </div>
+        
+        <div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
+          <div class="btn-group" role="group" aria-label="First group">
+            <button type="button" class="btn btn-outline-primary">1</button>
+            <button type="button" class="btn btn-outline-secondary">2</button>
+            <button type="button" class="btn btn-outline-success">3</button>
+            <button type="button" class="btn btn-outline-info">4</button>
+          </div>
+          <div class="input-group">
+            <div class="input-group-text" id="btnGroupAddon2">password</div>
+            <input type="password" class="form-control" placeholder="password" aria-label="Input group example" aria-describedby="btnGroupAddon2">
+          </div>
+        </div>
+
+        
+    </section>
+
+
+    <section class="container">
+      <h1 class="text-center mt-5 mb-5">Card</h1>
+      <div class="row ms-3">
+        <div class="col-lg-4">
+          <div class="card" style="width: 20rem;">
+            <img src="image/img-1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-success">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card" style="width: 20rem;">
+            <img src="image/img-1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-info">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card" style="width: 20rem;">
+            <img src="image/img-3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-outline-danger">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+       
+    </section>
+
+    <section class="container">
+      <h1 class="text-center mt-4 mb-4">Collapse</h1>
+      <p class="text-center">
+        <a class="btn btn-success" data-bs-toggle="collapse" href="#index.html" role="button" aria-expanded="false" aria-controls="collapseExample">
+          Link with href
+        </a>
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+            More Option
+        </button>
+      </p>
+      <div class="collapse text-center" id="collapseExample">
+        <div class="card card-body">
+          <li><a class="btn btn-info"  href="#">home</a></li>
+          <li><a class="btn btn-danger"  href="#">home</a></li>
+          <li><a class="btn btn-success"  href="#">home</a></li>
+          <li><a class="btn btn-dark"  href="#">home</a></li>
+        </div>
+      </div>
+
+      <div class="text-center">
+        <h1 class="text-center mt-4 mb-4">Multiple Target</h1>
+        <p>
+          <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Open first element</a>
+          <button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Open second element</button>
+          <button class="btn btn-warning" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Open both elements</button>
+        </p>
+        <div class="row">
+          <div class="col">
+            <div class="collapse multi-collapse" id="multiCollapseExample1">
+              <div class="card card-body">
+                Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="collapse multi-collapse" id="multiCollapseExample2">
+              <div class="card card-body">
+                Some placeholder content for the second collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="container text-center">
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+          Dropdown button
+        </button>
+        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+          <li><a class="dropdown-item active" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#">Separated link</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="container">
+      <h1 class="text-center mb-4 mt-4">List Item</h1>
+      <div class="list-group">
+        <button type="button" class="list-group-item list-group-item-action active " aria-current="true">
+          The current button
+        </button>
+        <button type="button" class="list-group-item list-group-item-primary list-group-item-action">A second item</button>
+        <button type="button" class="list-group-item list-group-item-success list-group-item-action">A third button item</button>
+        <button type="button" class="list-group-item list-group-item-danger list-group-item-action">A fourth button item</button>
+        <button type="button" class="list-group-item list-group-item-warning list-group-item-action" disabled>A disabled button item</button>
+      </div>
+    </section>
+
+    <section class="container">
+        <h1 class="text-center mt-4 mb-4">Modal</h1>
+          <div class="text-center">
+            <!-- Button trigger modal -->
+        <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          Launch static backdrop modal
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Remainder</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                You have to use Javascript to get proper Output
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-success">Understood</button>
+              </div>
+            </div>
+          </div>
+        </div>
+          </div>
+    </section>
+
+
+    
+
+    
+
+    <!-- js link here -->
+    
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+   
+    
+    
+   
+  </body>
+</html>
+
+
+
+
+      
+
+ 
+   
